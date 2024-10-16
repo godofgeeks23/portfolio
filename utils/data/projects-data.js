@@ -32,16 +32,12 @@ export const projectsData = [
     description: `Used custom PowerShell script to extract metadata from Windows Event Viewer to be forwarded to third party API in order to
 derive geolocation data. Implemented Log Analytics Workspace in Azure to ingest custom logs containing geographic information (latitude, longitude,
 state/province, and country) in bulk (1.5k entries/second). Configured Azure Sentinel (Microsoft’s cloud SIEM) workbook to display global attack data (RDP brute force) on World map according to physical location and magnitude of attacks. Observed thousands of attack attempts within 2 hours.`,
-    tools: [
-      "Powershell,",
-      "Azure,",
-      "Azure Sentinel"
-    ],
+    tools: ["Powershell,", "Azure,", "Azure Sentinel"],
     code: "github.com/godofgeeks23/azureSIEM",
     role: "Cloud and Security Engineer",
     demo: "",
     image: realEstate,
-  }
+  },
 ];
 
 // Do not remove any property.
