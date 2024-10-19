@@ -1,6 +1,8 @@
 import axios from 'axios';
 import { NextResponse } from "next/server";
 
+export const runtime = 'edge';
+
 export async function POST(request) {
   const payload = await request.json();
   const token = process.env.TELEGRAM_BOT_TOKEN;
