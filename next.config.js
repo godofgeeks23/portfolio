@@ -17,7 +17,5 @@ module.exports = {
         pathname: '**',
       },
     ],
-  },
-  output: "export",  // <=== enables static exports
-  reactStrictMode: true,
+  }
 }
